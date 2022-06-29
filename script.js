@@ -6,7 +6,6 @@ const VoiceRSS = { speech: function (e) { this._validate(e), this._request(e) },
 // passing completeJoke to VoiceRSS API
 
 function tellMe(completeJoke) {
-
     VoiceRSS.speech({
         key: 'f5717f955bbd472fb1929651a47a67f1',
         src: completeJoke,
